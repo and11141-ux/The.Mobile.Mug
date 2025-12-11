@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Us</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Book The Mobile Mug</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="menu.html">Menu</a>
+            <a href="book.html">Book Us</a>
+            <a href="build.html">Build Your Drink</a>
+            <a href="locations.html">Locations</a>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Event Booking Form</h2>
+        <form id="bookingForm">
+            <label>Name:<br><input type="text" id="name"></label><br>
+            <label>Email:<br><input type="email" id="email"></label><br>
+            <label>Event Date:<br><input type="date" id="date"></label><br>
+            <label>Event Type:<br>
+                <select id="eventType">
+                    <option>Wedding</option>
+                    <option>Birthday</option>
+                    <option>Corporate Event</option>
+                    <option>Community Market</option>
+                </select>
+            </label><br>
+            <button type="submit">Submit</button>
+        </form>
+        <p id="bookingMessage"></p>
+    </section>
+</body>
+</html>
